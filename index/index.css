@@ -1,0 +1,26 @@
+.mainDiv{
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: row wrap;
+    text-align: center;
+    padding-left: 7em;
+}
+
+
+.navDiv{
+    width: 1000px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.navDiv a {
+    text-decoration: none;
+    padding: 2.5em;
+    color: black;
+    align-items: center;
+}
+
+.navDiv a:hover{
+    text-decoration: underline;
+    color: brown;
+}
