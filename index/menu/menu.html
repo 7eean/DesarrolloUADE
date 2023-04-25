@@ -8,25 +8,62 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <link rel="shortcut icon" href="../../media/logoNav.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+        <link rel="stylesheet" href="/index/menu/menu.css">
     <title>Menu</title>
 
 </head>
 
 <body>
+    <header>
+        <nav class="abajo">
+            <div class="mainDiv">
+                <div class="logoDiv">
+                    <a href="./index.html">
+                        <img class="img" src="../../media/logoNav.png" alt="logo" width="150px" height="140px">
+                    </a>
+                </div>
+                <div class="navDiv">
+                    <a href="">Contacto</a>
+                    <a href="">Sobre nosotros</a>
+                    <a href="">Menu</a>
+                    <a href="">Servicios</a>
+                    <a href="">Reserva</a>
+                </div>
+            </div>
+        </nav>
+    </header>   
 
     <!--Contenedor Menu-->
-    <section id="menu" class="menu">
-        <div class="container mt-5 text-center">
+    <section >
+        <div class="container text-center">
             <h1>Nuestras Preparaciones</h1>
         </div>
 
-    <!--Titulo Entradas-->
-        <div class="tab-header text-center mt-5">
+        <!--Container Entradas--> 
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+
+                </div>
+
+                <div class="col-5">
+                     <!--Titulo Entradas-->
+        <div class="titulosMenu tab-header text-center mt-5">
             <h2 data-aos="fade-up"
             data-aos-duration="3000">Entradas</h2>
         </div>
+
+        
 
     <!-- Menu Entradas-->
         <div class="col-lg-12 text-center mt-5">
@@ -48,15 +85,51 @@
                 <p>Rellenos de Queso Muzzarella, acompañados con salsa de Tomate</p>
                 <p>$1800</p>
             </div>
+            <div class="comida" data-aos="fade-up"
+            data-aos-duration="3000">
+            <h3>Morrones Rellenos</h3>
+                <p>Rellenos de Queso Muzzarella, Cebolla, Ajo, y Jamon</p>
+                <p>$1800</p>
+            </div>
+            <div class="comida" data-aos="fade-up"
+            data-aos-duration="3000">
+            <h3>Tomates Rellenos</h3>
+                <p>Rellenos de Atun, Aceitunas, Cebolla, Mayonesa y Arroz</p>
+                <p>$1800</p>
+            </div>
         </div>
 
-    <!--Titulo Carnes-->
-        <div class="tab-header text-center mt-5">
+                </div>
+
+                <div class="col ImagenesDeMenus">
+                    <img class="imagenesMenu rounded shadow-lg" data-aos="fade-up"
+                    data-aos-duration="3000" src="../../media/Imagen Entradas.jpg" alt="" >
+                  </div>
+
+            </div>
+
+        </div>
+
+        
+        <!--Container Carnes--> 
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col ImagenesDeMenus">
+                    <img class="imagenesMenu rounded shadow-lg" data-aos="fade-up"
+                    data-aos-duration="3000" src="../../media/ImagenCarne.jpg" alt="" >
+                  </div>
+
+                <div class="col-5">
+                    <!--Titulo Carnes-->
+        <div class="titulosMenu tab-header text-center ">
             <h2 data-aos="fade-up"
             data-aos-duration="3000">Carnes</h2>
         </div>
 
-    <!--Menu Carnes--> 
+                     <!--Menu Carnes--> 
         <div class="col-lg-12 text-center mt-5">
             <div class="comida" data-aos="fade-up"
             data-aos-duration="3000">
@@ -85,13 +158,36 @@
 
             </div>
 
-    <!--Titulo Pastas-->        
-            <div class="tab-header text-center mt-5">
+                </div>
+
+                <div class="col">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Container Pastas--> 
+
+        <div class="container">
+
+            <div class="row">
+
+
+                <div class="col">
+
+                </div>
+
+                <div class="col-5">
+                        <!--Titulo Pastas-->        
+            <div class="titulosMenu tab-header text-center">
                 <h2 data-aos="fade-up"
                 data-aos-duration="3000">Pastas</h2>
             </div>
 
-    <!--Menu Pastas-->        
+                         <!--Menu Pastas-->        
             <div class="col-lg-12 text-center mt-5">
                 <div class="comida" data-aos="fade-up"
                 data-aos-duration="3000">
@@ -128,13 +224,13 @@
 
                 </div>
 
-    <!--Titulo Salsas-->
-                <div class="tab-header text-center mt-5">
+                         <!--Titulo Salsas-->
+                <div class="titulosMenu tab-header text-center ">
                     <h2 data-aos="fade-up"
                     data-aos-duration="3000">Salsas Para las Pastas</h2>
                 </div>
 
-    <!--Menu Salsas-->            
+                        <!--Menu Salsas-->            
                 <div class="col-lg-12 text-center mt-5">
                     <div class="comida" data-aos="fade-up"
                     data-aos-duration="3000">
@@ -170,38 +266,60 @@
                 </div>
 
 
+                </div>
 
-    <!--Titulo Hamburguesas-->           
-        <div class="tab-header text-center mt-5">
+                <div class="col ImagenesDeMenus">
+                    <img class="imagenesMenu rounded shadow-lg" data-aos="fade-up"
+                    data-aos-duration="3000" src="../../media/ImagenPastas.jpg" alt="" >
+                  </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Container Hamburguesas-->   
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col ImagenesDeMenus">
+                    <img class="imagenesMenu rounded shadow-lg" data-aos="fade-up"
+                    data-aos-duration="3000" src="../../media/HamburguesaPerlaNegra.jpg" alt="" >
+                  </div>
+                  <div class="col-5">
+                    <!--Titulo Hamburguesas-->           
+        <div class="titulosMenu tab-header text-center">
             <h2 data-aos="fade-up"
             data-aos-duration="3000">Hamburguesas</h2>
         </div>
 
-    <!--Menu Hamburguesas-->    
+                    <!--Menu Hamburguesas-->    
         <div class="col-lg-12 text-center mt-5">
             <div class="comida" data-aos="fade-up"
             data-aos-duration="3000">
             <h3>Hamburguesa con Queso</h3>
-                <p>Medallon de carne de 80gr, Queso Cheddar</p>
+                <p>Medallon de carne de 120gr, Queso Cheddar</p>
                     <p>$1600</p>
                 </div>
                 <div class="comida" data-aos="fade-up"
                 data-aos-duration="3000">
             <h3>Clasica</h3>
-                <p>Medallon de carne de 80gr, Queso Cheddar, Lechuga y Tomate</p>
+                <p>Medallon de carne de 120gr, Queso Cheddar, Lechuga y Tomate</p>
                     <p>$2000</p>
                 </div>
                 <div class="comida" data-aos="fade-up"
                 data-aos-duration="3000">
             <h3>Cheddar y Panceta</h3>
-                <p>Medallon de Carne de 80gr, Queso Cheddar y Panceta</p>
+                <p>Medallon de Carne de 120gr, Queso Cheddar y Panceta</p>
                     <p>$2100</p>
                 </div>
                 <div class="comida" data-aos="fade-up"
                 data-aos-duration="3000">
             <h3>Perla Negra</h3>
                 <p>Pan Brioche negro, Dos Medallones de carne
-                    de 80gr, Queso Cheddar, Lechuga y Tomate.
+                    de 120gr, Queso Cheddar, Cebolla caramelizada, Aceitunas Negras, Mushroom y salsa de la Casa.
                 </p>
                     <p>$2600</p>    
                 </div>
@@ -212,8 +330,25 @@
                 <p>$400</p>
             </div>
         </div>
+    </div>
+        <div class="col">
+        </div>
 
-        <div class="tab-header text-center mt-5">
+
+            </div>
+
+        </div>
+
+         <!--Container De Ensaladas--> 
+
+        <div class="container">
+        <div class="row">
+
+        <div class="col">
+        </div>
+
+        <div class="col-5">
+         <div class="titulosMenu tab-header text-center ">
             <h2 data-aos="fade-up"
             data-aos-duration="3000">Ensaladas</h2>
         </div>
@@ -247,33 +382,138 @@
 
         </div>
         </div>
-
-        <div class="tab-header text-center mt-5">
-            <h2 data-aos="fade-up"
-            data-aos-duration="3000">Bebidas</h2>
         </div>
 
-        <div class="col-lg-12 text-center mt-5">
-            <div class="comida" data-aos="fade-up"
-            data-aos-duration="3000">
-            <h3>Bebibas sin Alcohol</h3>
-            <p>CocaCola, CocaCola Zero, Sprite, Fanta, Agua, Agua Saborizada</p>
-            <p>$600</p>
-
-            <div class="comida" data-aos="fade-up"
-            data-aos-duration="3000">
-            <h3>Tragos</h3>
-            <p>Gin Tonic</p>
-            <p>$1700</p>
-            <p>Fernet</p>
-            <p>$1200</p>
-            <p>Aperol</p>
-            <p>$1400</p>
-        </div>
+        <div class="col ImagenesDeMenus">
+            <img class="imagenesMenu rounded shadow-lg" data-aos="fade-up"
+            data-aos-duration="3000" src="../../media/ImagenEnsaladas.jpg" alt="" >
+          </div>
 
         </div>
+    </div>
+
+
+        <!--Container De Bebidas--> 
+        <div class="container">
+            <div class="row">
+                
+              <div class="col ImagenesDeMenus">
+                <img class="imagenesMenu rounded shadow-lg" data-aos="fade-up"
+                data-aos-duration="3000" src="../../media/ImagenBebidas.jpg" alt="" >
+              </div>
+
+              <div class="col-5">
+                <div class=" text-center mt-5">
+        
+                    <div class="titulosMenu tab-header text-center">
+                    <h2 data-aos="fade-up"
+                    data-aos-duration="3000">Tragos</h2>
+                    <div class="comida mt-5" data-aos="fade-up"
+                    data-aos-duration="3000">
+                    <h3>Gin Tonic</h3>
+                    <p>Gin, Agua Tonica, Limon/Frutos Rojos, Lima</p>
+                    <p>$1700</p>
+        
+                    <h3>Fernet</h3>
+                    <p>Fernet y CocaCola</p>
+                    <p>$1200</p>
+        
+                    <h3>Aperol</h3>
+                    <p>Espumante Extra Brut, Aperol, Soda y Rodaja de Naranja</p>
+                    <p>$1400</p>
+        
+                    <h3>Mojito</h3>
+                    <p>Ron, Jugo de Lima y Menta</p>
+                    <p>$1900</p>
+        
+                    <h3>Margarita</h3>
+                    <p>Tequila, Triple Sec y Jugo de Limon</p>
+                    <p>$1700</p>
+        
+                    <h3>Manhattan</h3>
+                    <p>Vermuth Dulce, Whiskey y Bitter</p>
+                    <p>$1900</p>
+        
+                    <h3>Daiquiri</h3>
+                    <p>Ron y Jugo de Lima/Limon</p>
+                    <p>$1650</p>
+        
+                    <h3>Negroni</h3>
+                    <p>Gin, Vermouth Rosso y Bitter</p>
+                    <p>$1500</p>
+        
+                    </div>
+                </div>
+                <div class="comida" data-aos="fade-up"
+                data-aos-duration="3000">
+                <h3>Bebibas sin Alcohol</h3>
+                <p>CocaCola, CocaCola Zero, Sprite, Fanta, Agua, Agua Saborizada</p>
+                <p>$600</p>
+                </div>
+        
+                </div>
+              </div>
+
+              <div class="col">
+
+            </div>
         </div>
-    </section>
+    </div>
+
+
+
+
+
+    <footer class=" pt-2 pb-2">
+
+        <div class="container-fluid text-center text-md-left footer">
+    
+          <div class="row">
+    
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mx-auto mt-2">
+                <h4 class="text-uppercase mb-2 font-weight-bold">Contacto</h4>
+                <p class="mb-2">
+                  <i class="fa-brands fa-whatsapp"></i> +(54) 2267 52 7591
+                </p>
+                <p class="mb-2">
+                  <i class="fa-solid fa-phone"></i> 2254 57-1416
+                </p>
+      
+                <p class="mb-2">
+                  <i class="fa-solid fa-location-dot"></i>Boyero 1498 Carilo
+                </p>
+      
+              </div>
+    
+            <div class="col-sm-12 col-md-6 col-lg-4 mx-auto mt-2">
+              <h4 class="text-uppercase mb-2 font-weight-bold ">Horarios</h4>
+              <p class="mb-2">Lunes a Jueves de 12:00 a 15:00 y de 20:00 a 23:00</p>
+              <p class="mb-2">Viernes a Domingo de 12:00 a 15:30 y de 20:00 a 24:00</p>
+            </div>
+
+            <div class="col-sm-12 col- md-6 col-lg-4 mx-auto mt-2">
+              <h4 class="text-uppercase mb-2 font-weight-bold">Redes Sociales</h4>
+              <p class="mb-2">
+                <a class="nav-link" href="https://www.instagram.com/salvattorecarilo/?hl=es-la"> <i
+                    class="fa-brands fa-instagram nav-link"></i> Instagram</a>
+              <p class="mb-2">
+                <a class="nav-link" href="https://www.facebook.com/salvattorecarilo"><i class="fa-brands fa-facebook"></i>
+                  Facebook</a>
+              </p>
+    
+            </div>
+    
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mx-auto mt-2">
+                <img src="../../media/logoNav.png" alt="logo" height="140px" width="160px">
+              </div>
+
+          </div>
+    
+        </div>
+    
+      </footer>
 
 
 
@@ -287,6 +527,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+        <script src="../../index - lean/index.js"></script>
 </body>
 
 
