@@ -1,0 +1,158 @@
+*{
+    font-family: 'Anuphan', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav.abajo{
+    font-size: 15.4px;
+}
+.abajo img{
+    display: block;
+    transition: 1.5s;
+}
+.img{
+    display: none;
+    transition: 0.8s;
+}
+nav.abajo a {
+    color: rgb(213, 210, 210);
+}
+.abajo .mainDiv{
+    background-color: rgba(0, 0, 0, 0.93);
+    width: 100%;
+}
+.abajo .navDiv{
+    width: 1000px;
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: row wrap;
+    text-align: center;
+    padding-left: 7em;
+    position: fixed;
+    top: 0;
+    transition: 0.8s;
+}
+.navDiv{
+    width: 180vh;
+    align-items: center;
+    padding-top: 50px;
+}
+.navDiv a {
+    text-decoration: none;
+    padding: 2.5em;
+    color: black;
+    align-items: center;
+    color: white;
+}
+.navDiv a:hover{
+    color: brown;
+}
+.sectionFondo {
+    margin-top: 20px;
+}
+.fondo2{
+    margin-top: 250px;
+    margin-left: 550px;
+    margin-bottom: 400px;
+}
+/* AGREGADO */
+.container-fluid {
+    width: 80%; 
+    margin-top: 0px;}
+.mapTitle{
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    width: 100%;
+     margin: 0;
+     text-align: center;
+    margin-top: 400px;
+    text-align: center;
+}
+.mapa {
+    width: 420px;
+    height: 320px;
+    border: #fffdfd 3px;
+    margin-top: -250px;
+    margin-bottom: 80px; }
+
+    @media (hover: hover) and (pointer: fine) {
+        .underline:hover::before {
+          left: 0;
+          right: auto;
+          width: 100%; } }
+      
+      @media only screen and (min-width: 768px) {
+        /* tablets and desktop */ }
+      
+      @media only screen and (max-width: 767px) {
+        /* phones */ }
+      
+      @media only screen and (max-width: 767px) and (orientation: portrait) {
+        /* portrait phones */ }
+/*CONTACTO*/
+.descripcion-contacto {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif; }
+  
+  .formulario {
+    padding: 0px;
+    width: 600px;
+    height: 450px;
+    margin-bottom: 5px;
+   }
+  
+   #boton {
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+/*FOOTER*/ 
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.93);
+    font-weight: bold; 
+    height: fit-content;
+}
+    footer p {
+      text-align: center;
+      font-size: 20px;
+      color: white;
+ }
+    footer h4 {
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      font-size: 30px;
+
+      border-bottom: 2px solid #A77917; }
+    footer i {
+      text-align: center;
+      font-size: 20px;
+      color: white; 
+    padding-left: 20px;}
+    footer .nav-link {
+      text-decoration: none;
+      color: white; 
+    }
+      
+
+      .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }
+  
