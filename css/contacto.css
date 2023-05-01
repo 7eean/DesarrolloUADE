@@ -43,17 +43,18 @@ nav.abajo a {
     padding: 2.5em;
     color: black;
     align-items: center;
-    color: white;
+    color: black;
 }
 .navDiv a:hover{
     color: brown;
 }
 .sectionFondo {
     margin-top: 20px;
+    text-align: center;
 }
 .fondo2{
     margin-top: 250px;
-    margin-left: 550px;
+
     margin-bottom: 400px;
 }
 /* AGREGADO */
