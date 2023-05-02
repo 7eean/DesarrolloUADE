@@ -8,10 +8,11 @@ header{
     align-items: center;
     justify-content:space-around;
     background-color: rgba(0, 0, 0, 0.93);
-    z-index: 0;
+    z-index: 1000;
     position: fixed;
     width: 100%;
     top: 0;
+
   }
   .nav-list{
     list-style-type: none;
