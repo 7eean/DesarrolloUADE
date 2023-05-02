@@ -1,53 +1,84 @@
 *{
     font-family: 'Anuphan', sans-serif;
     padding: 0;
-    margin: 5px;
+    margin: 0px;
 } 
+header{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  background-color: rgba(0, 0, 0, 0.93);
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.nav-list{
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 400px;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 1.5em;
+}
+.abrirMenu{
+  display: none;
+  border: 0;
+  background-color: transparent;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: aliceblue;
+}
 
-nav.abajo{
-    font-size: 15.4px;
+.cerrarMenu{
+  display: none;
+  border: 0;
+  background-color: transparent;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: aliceblue;
+
 }
-.abajo img{
-    display: block;
-    transition: 1.5s;
-}
-.img{
-    display: none;
-    transition: 0.8s;
-}
-nav.abajo a {
-    color: rgb(255, 253, 253);
-}
-.abajo .mainDiv{
-    background-color: rgba(0, 0, 0, 0.93);
-    width: 100%;
-}
-.abajo .navDiv{
-    width: 1000px;
-}
-.mainDiv{
-    display: flex;
-    flex-wrap: row wrap;
-    text-align: center;
-    padding-left: 7em;
-    position: fixed;
-    top: 0;
-    transition: 0.8s;
-}
-.navDiv{
-    width: 180vh;
-    align-items: center;
-    padding-top: 50px;
-}
-.navDiv a {
-    text-decoration: none;
-    padding: 2.5em;
-    color: black;
-    align-items: center;
-    color: rgb(0, 0, 0);
-}
-.navDiv a:hover{
-    color: brown;
+
+@media screen and (max-width: 550px){
+
+  .abrirMenu{
+      display: block;
+  }
+
+  .cerrarMenu{
+      display: block;
+  }
+
+  .nav.visible{
+      opacity: 1;
+      visibility: visible;
+  }
+
+  .nav{
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      align-items: end;
+      gap: 1rem;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.93);
+      padding: 2rem;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.93);
+  }
+
+  .nav-list{
+      flex-direction: column;
+      align-items: end;
+      margin-right: 1px;
+  }
 }
 h1 {
     text-align: center;

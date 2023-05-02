@@ -3,61 +3,83 @@
     margin: 0;
     padding: 0;
 }
-
-nav.abajo {
-    font-size: 15.4px;
-}
-
-.abajo img {
-    display: block;
-    transition: 1.5s;
-}
-
-.img {
-    display: none;
-    transition: 0.8s;
-}
-
-nav.abajo a {
-    color: rgb(255, 253, 253);
-}
-
-.abajo .mainDiv {
-    background-color: rgba(0, 0, 0, 0.93);
-    width: 100%;
-}
-
-.abajo .navDiv {
-    width: 1000px;
-}
-
-.mainDiv {
+header{
     display: flex;
-    flex-wrap: row wrap;
-    text-align: center;
-    padding-left: 7em;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgba(0, 0, 0, 0.93);
+    z-index: 0;
     position: fixed;
+    width: 100%;
     top: 0;
-    transition: 0.8s;
-}
-
-.navDiv {
-    width: 180vh;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.navDiv a {
+  }
+  .nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 400px;
+  }
+  .nav-list li a {
     text-decoration: none;
-    padding: 2.5em;
-    color: black;
-    align-items: center;
-    color: rgb(0, 0, 0);
-}
-
-.navDiv a:hover {
-    color: brown;
-}
+    color: aliceblue;
+    padding: 1.5em;
+  }
+  .abrirMenu{
+    display: none;
+    border: 0;
+    background-color: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  
+  .cerrarMenu{
+    display: none;
+    border: 0;
+    background-color: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: aliceblue;
+  
+  }
+  
+  @media screen and (max-width: 550px){
+  
+    .abrirMenu{
+        display: block;
+    }
+  
+    .cerrarMenu{
+        display: block;
+    }
+  
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+  
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: end;
+        gap: 1rem;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.93);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.93);
+    }
+  
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+        margin-right: 1px;
+    }
+  }
 
 main {
     display: flex;
