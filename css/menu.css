@@ -80,6 +80,11 @@ header{
         align-items: end;
         margin-right: 1px;
     }
+
+    .titulosMenu h2{
+      font-size: 30px;
+  }
+     
   }
 
 .imagenesMenu{
@@ -118,7 +123,7 @@ h1::after{
 }
 
 .titulosMenu h2{
-    font-size: 50px;
+    font-size: 30px;
 }
    
  
