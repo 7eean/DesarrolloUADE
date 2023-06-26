@@ -17,10 +17,7 @@ setTimeout(function(){
         this.document.getElementById("loader").classList.toggle("loader2")
     
 }, 3000)
-/*
-window.addEventListener("load", function(){
-    this.document.getElementById("loader").classList.toggle("loader2")
-},)*/
+
 
 
 // Form with Submit responsive 
