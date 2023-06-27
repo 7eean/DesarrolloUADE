@@ -49,4 +49,17 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
     } 
   });
   
+
+
+function realizarReserva() {
+  var dia = document.getElementById("dia").value;
+  var horario = document.getElementById("horario").value;
+    
+  // Aquí puedes implementar la lógica para guardar la reserva en una base de datos o realizar otras acciones necesarias
+    
+  var resultado = "Reserva realizada para el día " + dia + " a las " + horario;
+    
+  document.getElementById("resultado").innerHTML = resultado;
+}
+  
   

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Seo -->
+    <meta name="reservas" content="Home page">
+    <meta name="keywords" content="buenos aires, take away, contacto, consulta">
+    <!-- Icon linked -->
+    <link rel="shortcut icon" href="../../media/logoNav.png" type="image/x-icon">
+    <!-- Fonts linked -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Boostrap icons linked -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Bootstrap linked-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Montserrat&family=Roboto&display=swap"
+    rel="stylesheet">
+    <!-- CSS linked -->
+    <link rel="stylesheet" href="../index.css">
+     <!-- Title -->
+    <title>Home - Inicio</title>
+</head>
+<body>
+    <!-- Header start -->
+    <header>
+        <img class="logo" src="/media/logoNav.png" alt="logo" width="150px" height="140px">
+        <button id="abrir" class="abrirMenu"><i class="bi bi-list"></i></button>
+        <nav id="nav" class="nav">
+            <button id="cerrar" class="cerrarMenu"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="/paginas/contacto.html">Contacto</a></li>
+                <li><a href="/paginas/sobreNostros.Html">Sobre nosotros</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="/paginas/menu.html">Menu</a></li>
+                <li><a href="/paginas/servicios.html">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="sectionFondo">
+        <img class="fondo" src="media/fondoMain.jpg" alt="fondo1">
+        <img id="fondob1" class="fondob" src="media/darryl-low-lMNMJ50Kwgk-unsplash.jpg" alt="fondo1">
+        <img class="fondo2" src="media/mango.png" alt="logo" width="450px" height="100px">
+    </section>
+    <section>
+        <div style="margin-top: 150px;" class="divCentral">
+            <div class="divCentral">
+                <h1 class="divCentral">Haga su reserva</h1>
+                <p>Nos encontramos en Puerto madero, Av. Alicia Moreau.</p> <p> Lunes a Jueves de 12:00hs a 15:00hs y de 20:00hs a 23:00hs.</p> <p>Viernes a Domingo de 12:00hs a 15:30hs y de 20:00hs a 00:00hs</p> 
+            </div>
+        </div>
+    </section>
+    <div class="input-group mb-2 divCentral">
+        <div class="labelDiv">
+            <label for="dia">Día:</label>
+            <input class="diaInput" type="text" id="dia" min="1" max="31">
+        </div>
+        <div class="labelDiv">
+            <label for="horario">Horario:</label>
+            <input class="diaInput" type="number" id="horario">
+        </div>
+        <button style="margin-top: 20px;" class="menu" onclick="realizarReserva()">
+            <span class="box">Reservar</span></button>
+    </div>
+    <div class="divCentral" id="resultado"></div>
+  
+  <script src="../js/index.js"></script>
+</body>
+<script src="index.js"></script>
+</html>

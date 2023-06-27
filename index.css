@@ -266,7 +266,68 @@ footer .nav-link {
 
 
 @media screen and (max-width: 1200px){
+    .abrirMenu{
+        display: block;
+    }
+    
+    .cerrarMenu{
+        display: block;
+    }
+    
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: end;
+        gap: 1rem;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.93);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.93);
+    }
+    
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+        margin-right: 1px;
+    }
+    
     .imagenesMenu{
+        display: none;
+    }
+    .fondo{
+        display: none;
+    }
+    #sq1{
+        display: none;
+    }
+    #fondov{
+        width: 100%;
+    }
+    #img5{
+        width: 100%;
+    }
+    #fondoh{
+        display: none;
+    }
+
+    #fondob1{
+        display: block;
+        width: 100%;
+    }
+    .fondo2{
+       display: none;
+    }
+    #sq3{
         display: none;
     }
 }
@@ -275,4 +336,24 @@ footer .nav-link {
     h1::after, h1::before{
         display: none;
     }
+}
+
+.divCentral{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.labelDiv{
+    padding: 1em;
+}
+
+.diaInput{
+    width: 150px;
 }
