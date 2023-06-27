@@ -48,10 +48,8 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
         })
     } 
   });
-  
-
-
-function realizarReserva() {
+    
+  function realizarReserva() {
   var dia = document.getElementById("dia").value;
   var horario = document.getElementById("horario").value;
     
@@ -61,5 +59,4 @@ function realizarReserva() {
     
   document.getElementById("resultado").innerHTML = resultado;
 }
-  
   
