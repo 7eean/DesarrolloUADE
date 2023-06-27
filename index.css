@@ -42,6 +42,30 @@ header{
 
 }
 
+.loader{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0 ;
+    z-index: 10000;
+    clip-path: circle(70.7% at 50% 50%);
+    transition: clip-path 1s ease-in-out;
+  }
+  
+  .loader2{
+    clip-path: circle(0% at 50% 50%);
+  }
+  
+  .loader img{
+    height: 250px;
+    width: 600px;
+  }
+
 @media screen and (max-width: 550px){
 
     .abrirMenu{
@@ -56,6 +80,11 @@ header{
         opacity: 1;
         visibility: visible;
     }
+
+    .loader img{
+        height: 150px;
+        width: 400px;
+      }
 
     .nav{
         opacity: 0;
@@ -274,6 +303,11 @@ footer .nav-link {
         display: block;
     }
     
+    .loader img{
+        height: 200px;
+        width: 500px;
+      }
+
     .nav.visible{
         opacity: 1;
         visibility: visible;

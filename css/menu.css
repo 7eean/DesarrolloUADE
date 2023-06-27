@@ -250,7 +250,7 @@ footer {
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(113, 98, 98, 0.93);
+        background-color: rgba(0, 0, 0, 0.93);
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.93);
     }
